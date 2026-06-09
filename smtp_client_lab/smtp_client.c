@@ -1,16 +1,4 @@
-/*
- * smtp_client.c
- *
- * Simple SMTP client for IT4060 Network Programming lab.
- *
- * Usage:
- *   ./smtp_client <server_ip> <server_port> <sender> <recipient> <subject>
- *
- * Example:
- *   ./smtp_client 127.0.0.1 1025 alice@example.com bob@example.com "Test email"
- *
- * End email body input with a line containing only a single dot: .
- */
+
 
 #include <arpa/inet.h>
 #include <errno.h>
